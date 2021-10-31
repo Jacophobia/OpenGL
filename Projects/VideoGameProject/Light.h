@@ -1,0 +1,39 @@
+#ifndef LIGHT_H
+#define LIGHT_H
+
+#include <GL/glew.h>
+#include <glm/glm.hpp>
+
+class Light // TODO add methods to manipulate directional light throughout the course of the program
+{
+public:
+	Light();
+	Light(
+		GLfloat red, 
+		GLfloat green, 
+		GLfloat blue, 
+		GLfloat aIntensity,
+		GLfloat xDirection,
+		GLfloat yDirection,
+		GLfloat zDirection, 
+		GLfloat dIntensity
+	);
+
+	void useLight(
+		GLfloat ambientIntensityLocation, 
+		GLfloat ambientColorLocation,
+		GLfloat diffuseIntensityLocation,
+		GLfloat directionLocation
+	);
+
+	~Light();
+private:
+	glm::vec3 color;
+	GLfloat ambientIntensity;
+
+	glm::vec3 direction;
+	GLfloat diffuseIntensity;
+};
+
+#endif
+
