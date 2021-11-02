@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/cmake-modules/FindRT.cmake
+C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/CMakeLists.txt
+C:/src/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+C:/src/share/cmake-3.21/Modules/FindPackageMessage.cmake

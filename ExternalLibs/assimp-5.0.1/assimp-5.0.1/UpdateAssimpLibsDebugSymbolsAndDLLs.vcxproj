@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3C733BCD-8EAD-372D-A7CE-4A9A3E9757A0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>UpdateAssimpLibsDebugSymbolsAndDLLs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\.;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.dll C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/bin32/assimp--mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.exp C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.lib C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.dll C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/bin32/assimp--mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.exp C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.ilk C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.lib C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.pdb C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\.;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.dll C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/bin32/assimp--mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.exp C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.lib C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.dll C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/bin32/assimp--mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.exp C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.ilk C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.lib C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.pdb C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\.;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.dll C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/bin32/assimp--mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.exp C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.lib C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.dll C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/bin32/assimp--mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.exp C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.ilk C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.lib C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.pdb C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\.;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.dll C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/bin32/assimp--mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.exp C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Release/assimp--mt.lib C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.dll C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/bin32/assimp--mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.exp C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.ilk C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.lib C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\src\bin\cmake.exe -E copy C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/code/Debug/assimp--mtd.pdb C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/lib32/assimp--mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\src\bin\cmake.exe -SC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 -BC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 --check-stamp-file C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeCCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeRCCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeSystem.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp-config-version.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp-config.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp.pc.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets-debug.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets-release.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindDirectX.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindZLIB.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake\HunterGate.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\config.h.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\revision.h.in;C:\src\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeCCompilerABI.c;C:\src\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;C:\src\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\src\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\src\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;C:\src\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\src\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\src\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseArguments.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;C:\src\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;C:\src\share\cmake-3.21\Modules\CheckTypeSize.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ROCMClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;C:\src\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\src\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\src\share\cmake-3.21\Modules\FindPkgConfig.cmake;C:\src\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\src\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\src\bin\cmake.exe -SC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 -BC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 --check-stamp-file C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeCCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeRCCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeSystem.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp-config-version.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp-config.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp.pc.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets-debug.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets-release.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindDirectX.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindZLIB.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake\HunterGate.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\config.h.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\revision.h.in;C:\src\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeCCompilerABI.c;C:\src\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;C:\src\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\src\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\src\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;C:\src\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\src\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\src\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseArguments.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;C:\src\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;C:\src\share\cmake-3.21\Modules\CheckTypeSize.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ROCMClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;C:\src\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\src\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\src\share\cmake-3.21\Modules\FindPkgConfig.cmake;C:\src\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\src\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\src\bin\cmake.exe -SC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 -BC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 --check-stamp-file C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeCCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeRCCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeSystem.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp-config-version.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp-config.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp.pc.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets-debug.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets-release.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindDirectX.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindZLIB.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake\HunterGate.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\config.h.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\revision.h.in;C:\src\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeCCompilerABI.c;C:\src\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;C:\src\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\src\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\src\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;C:\src\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\src\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\src\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseArguments.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;C:\src\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;C:\src\share\cmake-3.21\Modules\CheckTypeSize.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ROCMClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;C:\src\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\src\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\src\share\cmake-3.21\Modules\FindPkgConfig.cmake;C:\src\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\src\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\src\bin\cmake.exe -SC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 -BC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 --check-stamp-file C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeCCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeRCCompiler.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\3.21.0-rc1\CMakeSystem.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp-config-version.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp-config.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimp.pc.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets-debug.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets-release.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\assimpTargets.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindDirectX.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindPkgMacros.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\FindZLIB.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\PrecompiledHeader.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake-modules\cmake_uninstall.cmake.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\cmake\HunterGate.cmake;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\config.h.in;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\revision.h.in;C:\src\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeCCompilerABI.c;C:\src\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;C:\src\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\src\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\src\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;C:\src\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\src\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\src\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseArguments.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;C:\src\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;C:\src\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\src\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\src\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;C:\src\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;C:\src\share\cmake-3.21\Modules\CheckTypeSize.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\src\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\ROCMClang-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\src\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;C:\src\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\src\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\src\share\cmake-3.21\Modules\FindPkgConfig.cmake;C:\src\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\src\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\src\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\ZERO_CHECK.vcxproj">
+      <Project>{B58C312A-6BA4-3E1C-AD7B-A10E99992979}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/CMakeFiles/CheckTypeSize/OFF64_T.c
+C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/CMakeLists.txt
+C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/zconf.h.cmakein
+C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/zlib.pc.cmakein
+C:/src/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake
+C:/src/share/cmake-3.21/Modules/CheckFunctionExists.c
+C:/src/share/cmake-3.21/Modules/CheckFunctionExists.cmake
+C:/src/share/cmake-3.21/Modules/CheckIncludeFile.c.in
+C:/src/share/cmake-3.21/Modules/CheckIncludeFile.cmake
+C:/src/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake
+C:/src/share/cmake-3.21/Modules/CheckTypeSize.c.in
+C:/src/share/cmake-3.21/Modules/CheckTypeSize.cmake
+C:/src/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake

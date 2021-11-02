@@ -1,0 +1,1859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\AMF\AMFImporter.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\AMF\AMFImporter_Material.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3DS\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3DS\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\AC\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\ASE\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\ASE\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assbin\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\B3D\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\BVH\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Collada\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Collada\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\DXF\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\CSM\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\HMP\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Irr\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Irr\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Irr\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\LWO\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\LWO\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\LWO\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\LWO\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\LWS\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD2\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD3\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD5\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD5\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MDC\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MDL\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MDL\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\NFF\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\NDO\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\OFF\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Obj\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Obj\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Obj\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ogre\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ogre\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ogre\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ogre\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ogre\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ply\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ply\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MS3D\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\COB\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderCustomData.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\XGL\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Q3D\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Raw\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\SIB\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\SMD\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\STL\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Terragen\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Unreal\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Group.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Light.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Metadata.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Networking.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Rendering.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Shape.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Texturing.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\FIReader.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DVocabulary.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF\glTFCommon.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF2\glTF2Importer.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3MF\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3MF\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MMD\MMDImporter.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MMD\MMDPmxParser.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\StepFile\StepFileImporter.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\StepFile\StepFileGen1.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\StepFile\StepFileGen2.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\StepFile\StepFileGen3.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3DS\3DSExporter.cpp">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assbin\AssbinExporter.cpp">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assxml\AssxmlExporter.cpp">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Collada\ColladaExporter.cpp">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Obj\ObjExporter.cpp">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ply\PlyExporter.cpp">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXExporter.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXExportNode.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXExportProperty.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\STL\STLExporter.cpp">
+      <Filter>STL_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X\XFileExporter.cpp">
+      <Filter>X_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DExporter.cpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF\glTFExporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF2\glTF2Exporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3MF\D3MFExporter.cpp">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assjson\cencode.c">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assjson\json_exporter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assjson\mesh_splitter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Step\StepExporter.cpp">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\AMF\AMFImporter.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\AMF\AMFImporter_Macro.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\AMF\AMFImporter_Node.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3DS\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3DS\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\AC\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\ASE\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\ASE\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assbin\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\B3D\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\BVH\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Collada\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Collada\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Collada\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\DXF\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\DXF\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\CSM\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\HMP\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\HMP\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\HMP\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Irr\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Irr\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Irr\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\LWO\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\LWO\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\LWO\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\LWS\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD2\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD2\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD2\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD3\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD3\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD5\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MD5\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MDC\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MDC\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MDC\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MDL\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MDL\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MDL\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\NFF\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\NDO\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\OFF\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Obj\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Obj\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Obj\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Obj\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Obj\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ogre\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ogre\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ogre\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ogre\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ogre\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\OpenGEX\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\OpenGEX\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ply\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ply\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MS3D\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\COB\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\COB\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Blender\BlenderCustomData.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCReaderGen_2x3.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\IFC\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\XGL\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXCommon.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Q3D\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Q3BSP\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Q3BSP\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Raw\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\SIB\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\SMD\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\STL\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Terragen\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Unreal\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Macro.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DImporter_Node.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\FIReader.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF\glTFCommon.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF2\glTF2Asset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF2\glTF2Asset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF2\glTF2AssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF2\glTF2AssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF2\glTF2Importer.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3MF\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3MF\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3MF\3MFXmlTags.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MMD\MMDCpp14.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MMD\MMDImporter.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MMD\MMDPmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MMD\MMDPmxParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\MMD\MMDVmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Step\STEPFile.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\StepFile\StepFileImporter.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Importer\StepFile\StepReaderGen.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3DS\3DSExporter.h">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assbin\AssbinExporter.h">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assxml\AssxmlExporter.h">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Collada\ColladaExporter.h">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Obj\ObjExporter.h">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\OpenGEX\OpenGEXExporter.h">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Ply\PlyExporter.h">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXExporter.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXExportNode.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\FBX\FBXExportProperty.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\STL\STLExporter.h">
+      <Filter>STL_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X\XFileExporter.h">
+      <Filter>X_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\X3D\X3DExporter.hpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF\glTFExporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\glTF2\glTF2Exporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\3MF\D3MFExporter.h">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assjson\cencode.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Assjson\mesh_splitter.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\Step\StepExporter.h">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\aabb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\pbrmaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\DefaultIOStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\DefaultIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\SceneCombiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\fast_atof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\qnan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\BaseImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\MemoryIOWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\ParsingUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\StreamReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\StreamWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\StringComparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\SGSpatialSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\GenericProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\SpatialSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\SmoothingGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\SmoothingGroups.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\StandardShapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\RemoveComments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Subdivision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\LineSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\TinyFormatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Profiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\LogAux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\XMLTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\IOStreamBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\CreateAnimMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\MathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Exceptional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\ByteSwapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3D">
+      <UniqueIdentifier>{61890062-CB31-3FD9-B438-9A65B631DDA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{A8BED0C9-8E6C-346D-8AD5-AFD6026B3B16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS_EXPORTER">
+      <UniqueIdentifier>{4C945C31-C7E0-3267-B601-577562CAA484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{6092E4EA-6D53-30A3-93DE-FC98B20D74F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF_EXPORTER">
+      <UniqueIdentifier>{462D2CA8-FCBD-3BCE-B336-B22EA3F0031C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{847C6563-2FD0-3861-A891-E1AF072560F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AMF">
+      <UniqueIdentifier>{160A3F88-6AF5-3D34-981C-444A38F621AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{CB3FC841-2846-3B1C-8617-35599E0B0103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{A7012583-9145-3383-978F-3DF6F2D47C08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN_EXPORTER">
+      <UniqueIdentifier>{04A9F2FA-538E-3A0F-A532-80C05058A9AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSJSON_EXPORTER">
+      <UniqueIdentifier>{76CC8259-510C-3B39-AF37-A02D5067D603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML_EXPORTER">
+      <UniqueIdentifier>{7F5B1292-8769-3670-A455-99D3DFFBDAB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{2CB67BDC-772D-322B-B606-B3A55236ACB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{20076FF6-57CC-358E-89C0-54F42DE992DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{5E84B4EF-681D-353A-A6E6-47AF1FB7FA70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{9E4CC288-DC7F-34A3-98AC-4FD847374DBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{89536C41-1775-3FAD-9190-961949BAB926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{A65F55D0-5A64-3929-B5A2-23ABE325C093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA_EXPORTER">
+      <UniqueIdentifier>{07070CE2-1714-3E02-BB77-181FA5649E39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{BFC26C2A-5524-34B4-8C7B-F127745BDA6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{BF7B5D68-8E19-3610-A937-C77B88DD306F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{96915599-7CE7-3381-83D6-D3C623FAF95C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{2A0DCCB6-5C73-3633-A6D0-FE5BB2D05E04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{69524E99-F8BB-3AD7-9DF6-334DE8F1F667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{0F769059-D8F0-3DC5-9B1A-C654C7B095BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{B87CA30C-9441-3DE7-ACA2-82C6AF54E0FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{33857701-C83F-3C13-8454-3B307D376C2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{1355C4C5-23BB-3B25-8A59-5AF6F509C539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{54531FC8-0076-359E-9103-76C7D0BB8374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{E8A6D08F-2145-3F1F-B849-54591F5321ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{352DC049-1185-31A9-84D8-5BDB6A9FAD94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX_EXPORTER">
+      <UniqueIdentifier>{47211963-94AD-31CE-BFD2-06CCC2E0DEBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{43E813A4-77B6-3CA6-9792-2A6FB1ACECBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF_EXPORTER">
+      <UniqueIdentifier>{FC83CD6E-5FCA-3BDB-8BB8-6F44D282BB8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{2813D038-317A-321C-A8B4-6618CE9D6F9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{803120AE-A6BA-3E1D-B2E3-69FC16457CBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{9BE24E2B-BD86-3D7F-9C1C-95614C6FE1FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{7BED1D41-273B-305A-86E0-4C9BC5BEA652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{3B12E574-C445-3E07-A3D1-3617D57BCCB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{639BEF28-7A52-33EF-B9B4-9409DE63F093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{BDAAB9D7-B5F7-3B2A-A373-442A842C341C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{FB6B7CA9-F834-3F8D-BD28-A77C902D88A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{3CF7DBB6-00CE-3E4D-A114-EB4E02D087B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{D225733D-2FF8-3059-8947-5C85A2F853E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{4C7E7551-1C42-3D0C-B3EC-E215720149A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{34D781F5-6453-37C9-BB73-9AA70886D646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{905541C9-4D95-3DE2-8726-943E7D38CD25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{96AF9E68-EA88-343E-9DCD-F7C9B4928014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMD">
+      <UniqueIdentifier>{F2980E02-96E8-3718-B037-894A4D5A7842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{FBDD4190-A7AD-34C2-B26B-51E09097B5F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{04B14DEF-1350-35A0-A663-E811A9FD5FF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{29A72650-52D7-37E8-84D8-F64782531F92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{A900BB1F-CA05-3E56-BF92-D787BC226652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{C410E215-693E-36B2-86C8-5A028CA656A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ_EXPORTER">
+      <UniqueIdentifier>{6344F3E9-C9E4-3286-8797-8265EBBB60A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{7E111FD3-B1DD-30A5-960C-EB77ABED610F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{F7A1EA24-A56C-32E5-BDD7-F6DB83C75078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{D638158B-ED28-339D-B0AF-7B31C86152CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX_EXPORTER">
+      <UniqueIdentifier>{82DE4499-C550-3E3B-8A4F-1CAD6EBFD062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{4480485F-04D0-33B2-9E09-36CD8677AA2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY_EXPORTER">
+      <UniqueIdentifier>{BC600D38-3906-39B7-9A11-787DE5A50FFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{352F0C45-EFDB-3C79-93DC-CEC0393EDAE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{5ACED63B-8113-3ACF-9725-D8F9F9B79F28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{AB138F35-F9EB-31D6-BBED-3CF7B654C7C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{5BA20D99-B18E-3F1E-9D2D-2B85109F7556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{E0ECD817-3F5F-37F6-B196-7E28A2859E83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{FFDEE1CD-FDDF-362D-8C01-CA3AB6C382D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP">
+      <UniqueIdentifier>{4C58E0CE-BE0D-3DCB-B9A3-BE0BCE32BA12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{823E8CBC-475A-3D98-892B-863665D5BA88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP_EXPORTER">
+      <UniqueIdentifier>{14BADFB9-9163-3B2F-A7B8-AC08C93C174A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{629A7E0F-DB52-37EA-913D-C9FA1B1092F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL_EXPORTER">
+      <UniqueIdentifier>{644F5D0F-BD36-3CFA-8E53-966AB345F4FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A6F97E84-9E84-3960-9499-DD2FD5CE0C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{9173E60A-D39A-3A21-BEEB-D0B157EE8D09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{6701397E-62F7-3460-90A7-49A9E8A9DCE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D">
+      <UniqueIdentifier>{CCB5FF3F-FB36-32D2-9E79-2F23A4A49C8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D_EXPORTER">
+      <UniqueIdentifier>{0F280B37-19B2-3A71-A08B-B7B9C85BE6EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{B84E8BB2-913A-3FC4-88AE-838BC962262C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_EXPORTER">
+      <UniqueIdentifier>{30D398C3-0966-3AB6-8282-12F5465BA6BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{1EC4929E-493A-319A-BD3D-6150B65A0986}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

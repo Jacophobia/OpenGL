@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4801D705-446C-3F7B-9667-943FFED1184F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\.;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\.;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\.;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\include;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\code;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\.;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\src\bin\cmake.exe -SC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 -BC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 --check-stamp-file C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\CheckTypeSize\OFF64_T.c;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\zconf.h.cmakein;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\zlib.pc.cmakein;C:\src\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.c;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;C:\src\share\cmake-3.21\Modules\CheckTypeSize.c.in;C:\src\share\cmake-3.21\Modules\CheckTypeSize.cmake;C:\src\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\src\bin\cmake.exe -SC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 -BC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 --check-stamp-file C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\CheckTypeSize\OFF64_T.c;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\zconf.h.cmakein;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\zlib.pc.cmakein;C:\src\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.c;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;C:\src\share\cmake-3.21\Modules\CheckTypeSize.c.in;C:\src\share\cmake-3.21\Modules\CheckTypeSize.cmake;C:\src\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\src\bin\cmake.exe -SC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 -BC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 --check-stamp-file C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\CheckTypeSize\OFF64_T.c;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\zconf.h.cmakein;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\zlib.pc.cmakein;C:\src\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.c;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;C:\src\share\cmake-3.21\Modules\CheckTypeSize.c.in;C:\src\share\cmake-3.21\Modules\CheckTypeSize.cmake;C:\src\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\src\bin\cmake.exe -SC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 -BC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 --check-stamp-file C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/contrib/zlib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\CMakeFiles\CheckTypeSize\OFF64_T.c;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\zconf.h.cmakein;C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\zlib.pc.cmakein;C:\src\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.c;C:\src\share\cmake-3.21\Modules\CheckFunctionExists.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\src\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\src\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;C:\src\share\cmake-3.21\Modules\CheckTypeSize.c.in;C:\src\share\cmake-3.21\Modules\CheckTypeSize.cmake;C:\src\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\ZERO_CHECK.vcxproj">
+      <Project>{B58C312A-6BA4-3E1C-AD7B-A10E99992979}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\zlib.vcxproj">
+      <Project>{CEF51FF2-25A9-3AFE-9E3B-D9040479EB3F}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{55266CEF-E8C7-3160-B847-959872B79DC7}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

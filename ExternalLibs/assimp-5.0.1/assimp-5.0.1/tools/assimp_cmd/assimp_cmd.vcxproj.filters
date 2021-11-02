@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\tools\assimp_cmd\CompareDump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\tools\assimp_cmd\ImageExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\tools\assimp_cmd\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\tools\assimp_cmd\WriteDumb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\tools\assimp_cmd\Info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\tools\assimp_cmd\Export.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\tools\assimp_cmd\Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\tools\assimp_cmd\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\tools\assimp_cmd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Jacob\Documents\Repositories\Personal\Sprints\OpenGL\ExternalLibs\assimp-5.0.1\assimp-5.0.1\tools\assimp_cmd\assimp_cmd.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{803120AE-A6BA-3E1D-B2E3-69FC16457CBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A6F97E84-9E84-3960-9499-DD2FD5CE0C63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

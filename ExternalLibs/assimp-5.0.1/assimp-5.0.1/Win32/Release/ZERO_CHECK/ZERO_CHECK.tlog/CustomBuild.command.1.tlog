@@ -1,0 +1,10 @@
+^C:\USERS\JACOB\DOCUMENTS\REPOSITORIES\PERSONAL\SPRINTS\OPENGL\EXTERNALLIBS\ASSIMP-5.0.1\ASSIMP-5.0.1\CMAKEFILES\E6A18A5186B955D1D2C37A09EACB8738\GENERATE.STAMP.RULE
+setlocal
+C:\src\bin\cmake.exe -SC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 -BC:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Jacob/Documents/Repositories/Personal/Sprints/OpenGL/ExternalLibs/assimp-5.0.1/assimp-5.0.1/Assimp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
